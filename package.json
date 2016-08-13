@@ -1,0 +1,29 @@
+{
+  "name": "graphql-rest",
+  "version": "1.0.0",
+  "description": "GraphQL + REST setup",
+  "main": "server.js",
+  "dependencies": {
+    "express": "^4.14.0",
+    "express-graphql": "^0.5.3",
+    "graphql": "^0.6.2"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.11.4",
+    "babel-preset-es2015": "^6.13.2",
+    "babel-preset-stage-2": "^6.13.0",
+    "node-fetch": "^1.6.0",
+    "nodemon": "^1.10.0"
+  },
+  "scripts": {
+    "start": "nodemon server.js --exec babel-node --presets es2015,stage-2",
+    "client": "nodemon client.js --exec babel-node --presets es2015,stage-2",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "GraphQL",
+    "REST"
+  ],
+  "author": "@pabloalonsos",
+  "license": "MIT"
+}
