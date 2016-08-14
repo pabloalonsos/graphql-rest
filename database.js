@@ -1,6 +1,6 @@
 /*
- * Database Simulation
- */
+* Database Simulation
+*/
 const luke = {
   id: '1000',
   name: 'Luke Skywalker',
@@ -56,15 +56,15 @@ const artoo = {
   primaryFunction: 'Astromech',
 };
 
-export const droids = [
-    threepio,
-    artoo,
-];
+export const getDroids = Promise.resolve([
+  threepio,
+  artoo,
+]);
 
-export const humans = [
-    luke,
-    vader,
-    han,
-    leia,
-    tarkin,
-];
+export const getHumans = Promise.resolve([
+  luke,
+  vader,
+  han,
+  leia,
+  tarkin,
+]);
