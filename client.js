@@ -19,4 +19,3 @@ const restEndpoint = 'http://localhost:5000/humans';
 fetch(restEndpoint)
     .then(res => res.json())
     .then(humans => console.log('\nREST:', humans));
-
